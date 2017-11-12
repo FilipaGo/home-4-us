@@ -1,4 +1,4 @@
-# Home4Us Online Store
+# Home4Us Online Store Redesign
 
 Website redesign and development (proof of concept)
 
