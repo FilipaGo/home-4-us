@@ -1,0 +1,138 @@
+/**/
+/*-- Homepage history*/
+/**/
+
+.section-history {
+  background-color: $color-base;
+}
+
+#history-background-col2 {
+  background-color: $color-base;
+  @include background-2x-no-dimensions( '../images/historia_mother-daughter_4x3_overlay', 'jpg', cover, right bottom, no-repeat);
+
+  @include padding-top-to-rem (60);
+  @include padding-bot-to-rem (60);
+  @include padding-right-to-rem (30);
+  @include padding-left-to-rem (30);
+
+  @media #{$large-and-up} {
+    background-position: right $gutter-width/2 bottom;
+    background-color: $color-background-lighter;
+    background-image: none;
+    @include padding-top-to-rem (80);
+    @include padding-bot-to-rem (80);
+  }
+
+  @media #{$extra-large-and-up} {
+    @include padding-top-to-rem (120);
+    @include padding-bot-to-rem (120);
+  }
+}
+
+.history-background-col3 {
+  @include background-2x-no-dimensions( '../images/historia_mother-daughter_4x3', 'jpg', cover, center bottom, no-repeat);
+  background-position: right $gutter-width bottom;
+}
+
+.history-h {
+  @include font-to-rem(270);
+  @include line-height-to-rem(270);
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top:0;
+  left:-(11/16) * 1rem;
+
+  @media #{$xsmall-and-down} {
+    @include font-to-rem(150);
+    @include line-height-to-rem(150);
+    left:-(11/16) * 1rem;
+  }
+
+  @media #{$medium-and-up} {
+    @include font-to-rem(250);
+    @include line-height-to-rem(250);
+    left:-(11/16) * 1rem;
+  }
+
+  @media #{$large-and-up} {
+    @include font-to-rem(340);
+    @include line-height-to-rem(340);
+    left:-(7.5/16) * 1rem;
+  }
+
+  @media #{$extra-large-and-up} {
+    @include font-to-rem(400);
+    @include line-height-to-rem(400);
+    left:(-15/16) * 1rem;
+  }
+}
+
+.history-heading-wrapper h3 {
+  color: white;
+  @include margin-bot-to-rem (20);
+
+  @media #{$large-and-up} {
+    color: $color-headings;
+    @include margin-bot-to-rem (30);
+  }
+}
+
+#history-background-col2 p {
+  color: white;
+
+  @media #{$large-and-up} {
+    color: $color-body-text;
+  }
+}
+
+.history-link {
+  color: #fff;
+  @include line-height-to-rem (24);
+  border-bottom: 1px solid $color-accent01;
+  @include margin-top-to-rem (15);
+  @include transition(color);
+
+  @media #{$large-and-up} {
+    color: $color-accent01;
+    border-bottom: 1px solid $neutral01;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-accent01;
+
+    @media #{$large-and-up} {
+      color: $color-base;
+    }
+  }
+}
+
+.history-line {
+  width: (30 / 16) * 1rem;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: -(40 / 16) * 1rem;
+
+  @media #{$xsmall-and-down} {
+    display: none;
+  }
+
+  @media #{$medium-and-up} {
+    width: (50 / 16) * 1rem;
+    left: -(60 / 16) * 1rem;
+  }
+
+  @media #{$large-and-up} {
+    width: (60 / 16) * 1rem;
+    left: -(70 / 16) * 1rem;
+    background-color: $color-headings;
+  }
+
+  @media #{$extra-large-and-up} {
+    width: (80 / 16) * 1rem;
+    left: -(90 / 16) * 1rem;
+  }
+}

@@ -1,0 +1,279 @@
+/**/
+/*-- Footer*/
+/**/
+
+footer {
+  @extend section;
+  @include background-2x( '../images/background_pattern', 'jpg', 150px, 150px, center center, repeat);
+
+  @media #{$small-and-down} {
+    @include padding-bot-to-rem (90);
+  }
+}
+
+footer h3 {
+  @include font-to-rem (23);
+  @include line-height-to-rem (28.8);
+
+  @media #{$large-and-up} {
+    @include font-to-rem (28);
+    @include line-height-to-rem (31);
+  }
+}
+
+.small-sub {
+  text-align: center;
+  @include font-to-rem (14);
+  @include line-height-to-rem (16.8);
+  @include margin-bot-to-rem (30);
+}
+
+footer form {
+  display: block;
+  position: relative;
+  max-width: 250px;
+  margin: auto;
+
+  @media #{$large-and-up} {
+    max-width: 400px;
+  }
+}
+
+footer .email_clientes {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: (44/16) *1rem;
+  border: 1px solid $neutral01;
+  border-radius: (20/16) *1rem;
+  padding-left: (20/16) *1rem;
+  @include transition(border-color);
+
+  &:hover,
+  &:focus {
+    border-color: $color-base;
+  }
+
+  &::placeholder {
+    color: $neutral02;
+    @include font-to-rem (18);
+    font-weight: 400;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $neutral02;
+    @include font-to-rem (18);
+    font-weight: 400;
+  }
+
+  &::-moz-placeholder {
+    color: $neutral02;
+    @include font-to-rem (18);
+    font-weight: 400;
+  }
+
+  &:-ms-input-placeholder {
+    color: $neutral02;
+    @include font-to-rem (18);
+    font-weight: 400;
+  }
+
+  &:-moz-placeholder {
+    color: $neutral02;
+    @include font-to-rem (18);
+    font-weight: 400;
+  }
+}
+
+.newsletter-bt {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  border: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50px;
+  background-color: $color-base;
+  @include transition (background-color);
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent01;
+  }
+}
+
+.footer-label {
+  @include font-to-rem (13);
+  @include line-height-to-rem (24);
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid $color-headings;
+  @include margin-bot-to-rem (25);
+
+  @media #{$medium-only} {
+    @include margin-top-to-rem (10);
+  }
+}
+
+footer p,
+address a {
+  @include font-to-rem (14);
+  @include line-height-to-rem (21);
+  color: $color-body-text;
+  font-style: normal;
+}
+
+address div {
+  @include margin-bot-to-rem (10);
+  @include margin-top-to-rem (10);
+}
+
+address a {
+  border-bottom: 1px solid $neutral01;
+  padding-bottom: 2px;
+  @include transition(all);
+
+  &:hover,
+  &:focus {
+    color: $color-headings;
+    border-bottom: 1px solid $color-base;
+  }
+}
+
+.footer-link {
+  @include font-to-rem (14);
+  @include line-height-to-rem (21);
+  color: $color-body-text;
+  @include transition();
+
+  &:hover,
+  &:focus {
+    color: $color-base;
+  }
+}
+
+.footer-list li {
+  @include margin-bot-to-rem (8);
+  @include margin-top-to-rem (8);
+}
+
+.social-icon > .social-bg,
+.social-icon > .social-stk,
+.social-icon > .social-pic {
+  @include transition(fill);
+}
+
+.social-icon:focus > .social-bg,
+.social-icon:hover > .social-bg,
+.social-icon:focus > .social-stk,
+.social-icon:hover > .social-stk {
+  fill: $color-base;
+}
+
+.social-icon:focus > .social-pic,
+.social-icon:hover > .social-pic {
+  fill: #ffffff;
+}
+
+.footer-icon-wrapper {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  margin-left: ($gutter-width - 0.125) / 2;
+  margin-right: ($gutter-width - 0.125) / 2;
+
+  @media #{$large-and-up} {
+    margin-left: $gutter-width - 0.125;
+    margin-right: $gutter-width - 0.125;
+  }
+
+  & img {
+    opacity: 0.7;
+  }
+}
+
+.divider {
+  margin: 0 $gutter-width;
+  padding-top: $gutter-width * 2;
+  padding-bottom: $gutter-width * 2;
+  border-top: 1px solid $neutral01;
+  border-bottom: 1px solid $neutral01;
+
+  @media #{$large-and-up} {
+    margin: 0 $gutter-width * 2;
+  }
+}
+
+.inline-link-wrapper {
+  display: block;
+  vertical-align: middle;
+  margin-bottom: (20/16) *1rem;
+  margin-left: ($gutter-width - 0.125) / 2;
+  margin-right: ($gutter-width - 0.125) / 2;
+
+  @media #{$medium-and-up} {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  @media #{$large-and-up} {
+    margin-left: $gutter-width - 0.125;
+    margin-right: $gutter-width - 0.125;
+  }
+}
+
+.inline-link-wrapper a {
+  border-bottom: 1px solid $neutral01;
+  padding-bottom: 2px;
+  color: $color-labels;
+  @include font-to-rem (14);
+  @include line-height-to-rem (21);
+  @include transition(all);
+
+  &:hover,
+  &:focus {
+    color: $color-headings;
+    border-bottom: 1px solid $color-base;
+  }
+}
+
+// accordion
+
+.accordion{
+  @media #{$small-and-down} {
+    @include margin-top-to-rem (40);
+  }
+}
+
+.accordion-wrapper {
+  border-bottom: 1px dashed $neutral02;
+}
+
+.accordion-title h4 {
+  position: relative;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  @include font-to-rem (13);
+  @include line-height-to-rem (24);
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0;
+  border: 0;
+  padding: 10px 0;
+  background-color: transparent;
+  -webkit-appearance: button;
+
+  & img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    @include translate (0, -50%);
+  }
+}

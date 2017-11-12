@@ -1,0 +1,160 @@
+/**/
+/*-- Header*/
+/**/
+
+ header,
+ nav {
+   font-size: 0;
+ }
+
+ header {
+   overflow: hidden;
+   box-shadow: 0px 2px 6px 0 rgba(155, 155, 155, .3);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 100;
+   transition: top 0.4s ease-in-out;
+ }
+
+ .nav-up {
+    top: -155px;
+}
+
+ .nav {
+   box-shadow: 0px 2px 6px 0 rgba(155, 155, 155, .3);
+ }
+
+ .border-bottom {
+   border-bottom: 1px solid $neutral01;
+ }
+
+.scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.logo-site {
+  max-width: 110px;
+
+  @media #{$small-and-down} {
+    max-width: 100px;
+  }
+
+  @media #{$xsmall-and-down} {
+    max-width: 80px;
+  }
+}
+
+.nav-item {
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 2px solid $color-background-lighter;
+  display: inline-block;
+  vertical-align: middle;
+
+  &:hover {
+    border-bottom: 2px solid $color-accent01;
+  }
+}
+
+.nav-item-no-stroke {
+@extend .nav-item;
+border-bottom: 0;
+font-size: 0;
+
+&:hover {
+  border-bottom: 0;
+}
+}
+
+.nav-item.active {
+  color: $color-body-text;
+  border-bottom: 2px solid $color-accent01;
+}
+
+.nav-item:not(:last-child) {
+  border-right: 1px solid rgba(114, 124, 135, .2);
+}
+
+.nav-link {
+  padding: 13px $gutter-width 12px;
+  font-size: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  @include transition (color);
+
+  &:hover,
+  &:focus {
+    color: $color-base;
+  }
+}
+
+.submenu {
+  height: 0;
+  opacity: 0; }
+
+.submenu.active {
+  height: auto;
+  opacity: 1; }
+
+.sub-item {
+  color: $color-body-text;
+  @include font-to-rem (14);
+  text-decoration: none;
+  padding: $gutter-width;
+  @include transition (color);
+
+  &:hover,
+  &:focus {
+    color: $color-base;
+  }
+}
+
+.main-menu-image {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.main-menu-text {
+  display:inline-block;
+  @include font-to-rem (13);
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.submenu {
+  border-radius: 0 0 3px 3px;
+}
+
+.inline-no-wrap {
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.bg-light {
+  background-color: $color-background-lighter;
+}
+
+.nav-item .blue,
+.nav-item .orange {
+  @include transition(stroke);
+}
+
+.nav-item:focus .blue,
+.nav-item:hover .blue {
+  stroke: $color-base;
+}
+
+.nav-item:focus .orange,
+.nav-item:hover .orange {
+  stroke: $color-accent01;
+}
+
+.page-is-active {
+  border-bottom: 2px solid $color-accent01;
+}

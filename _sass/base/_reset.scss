@@ -1,0 +1,105 @@
+/**/
+/*-- HTML5 reset*/
+/**/
+
+*,
+*::before,
+*::after,
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: (103 / 16) * 1rem;
+}
+
+body,
+html {
+  background-color: $color-background;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  max-width: 100%;
+  display: inline-block;
+  /* remove tap active state*/
+  -webkit-tap-highlight-color: transparent;
+  &:active {
+    color: inherit;
+  }
+}
+
+img,
+video,
+embed,
+object {
+  max-width: 100%;
+}
+
+img {
+  border: 0;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button,
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  border-spacing: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+
+button:focus,
+textarea:focus,
+input:focus {
+    outline: none;
+}

@@ -1,0 +1,171 @@
+/**/
+/*-- Helper classes*/
+/**/
+
+
+.clearfix {
+    &::before,
+    &::after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.assistive {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.font-size-zer {
+  font-size: 0;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.display-block {
+  display: block;
+}
+
+.line-divider {
+  border-bottom: 1px solid $neutral02;
+  @include padding-bot-to-rem (30);
+
+  @media #{$medium-and-down} {
+    border-bottom: 0;
+  }
+}
+
+.col-line-divider-bot {
+  border-bottom: 1px solid $neutral02;
+}
+
+.col-line-divider-left {
+  border-left: 1px solid $neutral02;
+}
+
+.box-padding {
+  padding-bottom: $gutter-width / 2;
+  padding-top: $gutter-width / 2;
+  padding-left: $gutter-width / 2;
+  padding-right: $gutter-width / 2;
+
+  @media #{$large-and-up} {
+    padding-bottom: $gutter-width;
+    padding-top: $gutter-width;
+    padding-left: $gutter-width;
+    padding-right: $gutter-width;
+  }
+}
+
+.fix-ie-width {
+  width: 33.3333333%;
+}
+
+.fix-safari-height {
+  height: 33.3333333%;
+}
+
+/* Media Query Classes */
+
+.hide-on-small-only,
+.hide-on-small-and-down {
+  @media #{$small-and-down} {
+    display: none;
+  }
+}
+
+.hide-on-med-and-down {
+  @media #{$medium-and-down} {
+    display: none;
+  }
+}
+
+.hide-on-med-and-up {
+  @media #{$medium-and-up} {
+    display: none;
+  }
+}
+
+.hide-on-med-only {
+  @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+    display: none;
+  }
+}
+
+.hide-on-large-only {
+  @media #{$large-and-up} {
+    display: none;
+  }
+}
+
+.hide-on-large-and-down {
+  @media #{$large-and-down} {
+    display: none;
+  }
+}
+
+.show-on-large {
+  @media #{$large-and-up} {
+    display: block;
+  }
+}
+
+.hide-on-large-and-up {
+  @media #{$large-and-up} {
+    display: none;
+  }
+}
+
+.hide-on-xlarge-and-up {
+  @media #{$extra-large-and-up} {
+    display: none;
+  }
+}
+
+.show-on-medium {
+  @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+    display: block;
+  }
+}
+
+.show-on-small {
+  @media #{$small-and-down} {
+    display: block;
+  }
+}
+
+.show-on-medium-and-up {
+  @media #{$medium-and-up} {
+    display: block;
+  }
+}
+
+.show-on-medium-and-down {
+  @media #{$medium-and-down} {
+    display: block;
+  }
+}

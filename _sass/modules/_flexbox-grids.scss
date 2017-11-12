@@ -1,0 +1,264 @@
+/**/
+/*-- Flexbox Grid - desenvolvida com base no materialize, mas alterada - http://materializecss.com/getting-started.html*/
+/**/
+
+/* Mixins */
+@mixin reset-offset {
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.flex-row-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $gutter-width / 2;
+
+  @media #{$large-and-up} {
+    padding: 0 $gutter-width;
+  }
+
+  &.flex-row-no-pad-right {
+      padding-right: 0;
+  }
+
+  &.flex-row-no-pad-left {
+      padding-left: 0;
+  }
+
+  &.flex-row-no-pad-right-mobile {
+      padding-right: 0;
+
+      @media #{$large-and-up} {
+      padding-right: $gutter-width;
+      }
+  }
+
+  &.flex-row-no-pad-left-mobile {
+      padding-left: 0;
+
+      @media #{$large-and-up} {
+      padding-left: $gutter-width;
+      }
+  }
+
+  &.remove-pad-right {
+    @media #{$large-and-down} {
+      padding-right: 0;
+    }
+  }
+
+  &.remove-pad-left {
+    @media #{$large-and-down} {
+      padding-left: 0;
+    }
+  }
+
+  &.flex-row-pad-top-bot {
+    padding-bottom: $gutter-width;
+    padding-top: $gutter-width;
+
+    @media #{$large-and-up} {
+      padding-bottom: $gutter-width *2;
+      padding-top: $gutter-width *2;
+    }
+  }
+
+  &.flex-row-big-pad-top {
+    @include padding-top-to-rem (50);
+
+    @media #{$large-and-up} {
+        @include padding-top-to-rem (70);
+    }
+  }
+
+  &.nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .flex-col {
+    padding: 0 $gutter-width / 2;
+
+    @media #{$large-and-up} {
+      padding: 0 $gutter-width;
+    }
+
+    &.flex-col-flex1 {
+      flex: 1;
+    }
+
+    &.flex-col-pad-top-bot {
+      padding-bottom: $gutter-width;
+      padding-top: $gutter-width;
+
+      @media #{$large-and-up} {
+        padding-bottom: $gutter-width *2;
+        padding-top: $gutter-width *2;
+      }
+    }
+
+    &.flex-col-pad-top-bot-regular {
+      padding-bottom: $gutter-width / 2;
+      padding-top: $gutter-width / 2;
+
+      @media #{$large-and-up} {
+        padding-bottom: $gutter-width;
+        padding-top: $gutter-width;
+      }
+    }
+
+    &.flex-col-no-pad-side {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    &.flex-col-no-pad-left {
+      padding-left: 0;
+    }
+
+    &.flex-col-no-pad-right {
+      padding-right: 0;
+    }
+
+    &.flex-col-no-pad-top-bot {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    &.flex-col-center {
+      align-self: center;
+    }
+
+    &.flex-col-flexed {
+      display: flex;
+
+      &.flex-col-flexed-dir-vertical {
+        flex-direction: column;
+      }
+    }
+
+    @for $f from 1 through $num-cols {
+          $perc: (100% / $num-cols) * $f;
+            &.sf#{$f} {
+               flex-basis: $perc;
+               @include reset-offset;
+            }
+         }
+
+    @media #{$medium-and-up} {
+      @for $f from 1 through $num-cols {
+            $perc: (100% / $num-cols) * $f;
+              &.mf#{$f} {
+                 flex-basis: $perc;
+                 @include reset-offset;
+              }
+           }
+           }
+
+    @media #{$large-and-up} {
+      @for $f from 1 through $num-cols {
+            $perc: (100% / $num-cols) * $f;
+              &.lf#{$f} {
+                 flex-basis: $perc;
+                 @include reset-offset;
+              }
+           }
+           }
+
+    @media #{$extra-large-and-up} {
+      @for $f from 1 through $num-cols {
+            $perc: (100% / $num-cols) * $f;
+              &.xlf#{$f} {
+                 flex-basis: $perc;
+                 @include reset-offset;
+              }
+           }
+           }
+
+    @media #{$extra-extra-large-and-up} {
+      @for $f from 1 through $num-cols {
+            $perc: (100% / $num-cols) * $f;
+              &.xxlf#{$f} {
+                 flex-basis: $perc;
+                 @include reset-offset;
+              }
+           }
+           }
+  }
+}
+
+/* Flex row modifiers (container) */
+.flex-row--top {
+  align-items: flex-start;
+}
+
+.flex-row--bottom {
+  align-items: flex-end;
+}
+
+.flex-row--center {
+  align-items: center;
+}
+
+.flex-row--justifycenter {
+  justify-content: center;
+}
+
+.flex-row--justifybetween {
+  justify-content: space-between;
+}
+
+.flex-row--nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-row--dir-vert {
+  flex-direction: column;
+}
+
+/* Flex col modifiers (flex child) */
+
+.flex-col--basis {
+  flex-basis: 33.33333333%;
+}
+
+.flex-col--grow--shrink {
+  flex: 1 1;
+}
+
+.flex-col--grow {
+  flex-grow: 1;
+}
+
+.flex-col--top {
+  align-self: flex-start;
+}
+
+.flex-col--bottom {
+  align-self: flex-end;
+}
+
+.flex-col--center {
+  align-self: center;
+}
+
+.flex-col--autoSize {
+  flex: none;
+}
+
+.flex-col--shrink {
+  flex-shrink: 0;
+}
+
+.no-shrink {
+  min-width: -webkit-min-content;
+  min-width:auto;
+}

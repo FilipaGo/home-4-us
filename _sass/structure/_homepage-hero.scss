@@ -1,0 +1,86 @@
+/**/
+/*-- Homepage hero*/
+/**/
+
+.hero {
+  min-height: 75vh;
+  width: 100%;
+}
+
+.hero-section .hero {
+  @media #{$medium-and-down} {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.hero-bg-large-dev {
+  @include background-2x-no-dimensions( '../images/hero', 'jpg', cover, center center, no-repeat);
+  background-position: left $gutter-width center;
+}
+
+.hero-bg-small-dev {
+  @include background-2x-no-dimensions( '../images/hero_overlay', 'jpg', cover, center center, no-repeat);
+
+  @media #{$large-and-up} {
+    background-image: none;
+  }
+}
+
+.hero-section .hero-bg-small-dev {
+  padding-bottom: $gutter-width * 2;
+  padding-top: $gutter-width * 2;
+  @include padding-right-to-rem (30);
+  @include padding-left-to-rem (30);
+}
+
+.hero-content {
+  @extend .flex-col--center;
+
+  @media #{$medium-and-up} {
+    align-self: flex-start;
+  }
+
+  @media #{$large-and-up} {
+    align-self: flex-end;
+  }
+}
+
+.hero h3 {
+  color: white;
+  @include margin-bot-to-rem (30);
+  border-bottom: 2px solid white;
+
+  @media #{$medium-and-down} {
+    text-shadow: 0 2px 3px rgba(85, 85, 85, .6);
+  }
+
+  @media #{$large-and-up} {
+    color: $color-headings;
+    border-bottom: 2px solid $color-headings;
+    @include margin-left-to-rem (-50);
+  }
+
+  @media #{$extra-large-and-up} {
+    @include margin-left-to-rem (-80);
+  }
+}
+
+.hero p {
+  color: white;
+
+
+  @media #{$medium-and-down} {
+    text-shadow: 0 2px 3px rgba(85, 85, 85, .6);
+  }
+
+  @media #{$large-and-up} {
+    color: $color-body-text;
+  }
+}
+
+.hero .button {
+  @media #{$extra-large-and-up} {
+    @include margin-top-to-rem (60);
+  }
+}

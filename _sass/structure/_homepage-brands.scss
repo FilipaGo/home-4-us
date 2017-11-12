@@ -1,0 +1,118 @@
+/**/
+/*-- Homepage brands*/
+/**/
+
+.slider-list-wrapper {
+  position: relative;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $gutter-width / 2;
+  padding-left: $gutter-width / 2;
+
+  @media #{$large-and-up} {
+    padding-right: $gutter-width;
+    padding-left: $gutter-width;
+  }
+}
+
+.slider-list {
+  display: block;
+  @include padding-bot-to-rem (30);
+  @include padding-top-to-rem (30);
+  margin: 0;
+  background-color: $color-background-lighter;
+  overflow: hidden;
+
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slider-list-item {
+  display: block;
+  float: left;
+  font-size: 0;
+  text-align: center;
+
+  &:focus,
+  &:active {
+    outline: none;
+    border: none;
+  }
+}
+
+.slider-list-item a:focus,
+.slider-list-item a:active {
+  outline: none;
+  border: none;
+}
+
+.slider-arrow-container-left {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  @include translate (0, -50%);
+  @include margin-left-to-rem (30);
+  z-index: 10;
+  opacity: 0;
+  @include transition(opacity);
+
+  @media #{$large-and-up} {
+    top: 50%;
+    @include margin-left-to-rem (6);
+  }
+}
+
+.slider-arrow-container-right {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  @include translate (0, -50%);
+  @include margin-right-to-rem (30);
+  z-index: 10;
+  opacity: 0;
+  @include transition(opacity);
+
+  @media #{$large-and-up} {
+    top: 50%;
+    @include margin-right-to-rem (6);
+  }
+}
+
+.slider-list-wrapper:hover .slider-arrow-container-left,
+.slider-list-wrapper:focus .slider-arrow-container-left,
+.slider-list-wrapper:hover .slider-arrow-container-right,
+.slider-list-wrapper:focus .slider-arrow-container-right {
+  opacity: 1;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  opacity: 0.3;
+  @include transition(opacity);
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}
+
+.slider-list-item a {
+  cursor: pointer;
+  opacity: 0.5;
+  @include transition(opacity);
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}

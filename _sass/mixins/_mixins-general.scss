@@ -1,0 +1,146 @@
+//General mixins and functions
+
+
+//Convert px to rem
+@function px-to-rem($px, $ref: 16) {
+	@return ($px / $ref) * 1rem;
+}
+
+@mixin font-to-rem($px) {
+  font-size: px-to-rem($px);
+}
+
+@mixin line-height-to-rem($px) {
+  line-height: px-to-rem($px);
+}
+
+@mixin margin-bot-to-rem($px) {
+  margin-bottom: px-to-rem($px);
+}
+
+@mixin margin-top-to-rem($px) {
+  margin-top: px-to-rem($px);
+}
+
+@mixin margin-right-to-rem($px) {
+  margin-right: px-to-rem($px);
+}
+
+@mixin margin-left-to-rem($px) {
+  margin-left: px-to-rem($px);
+}
+
+@mixin padding-bot-to-rem($px) {
+  padding-bottom: px-to-rem($px);
+}
+
+@mixin padding-top-to-rem($px) {
+  padding-top: px-to-rem($px);
+}
+
+@mixin padding-right-to-rem($px) {
+  padding-right: px-to-rem($px);
+}
+
+@mixin padding-left-to-rem($px) {
+  padding-left: px-to-rem($px);
+}
+
+//Transition
+@mixin transition($property: color, $duration: 250ms, $timing-function: ease-in-out) {
+  transition: $property $duration $timing-function;
+	-webkit-transition: $property $duration $timing-function;
+	-moz-transition: $property $duration $timing-function;
+	-ms-transition: $property $duration $timing-function;
+	-o-transition: $property $duration $timing-function;
+}
+
+// Transform Browser Prefixes
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	-o-transform: $transforms;
+	transform: $transforms;
+}
+
+// Transform Translate
+@mixin translate ($x, $y) {
+	@include transform(translate($x, $y));
+}
+
+//Transform Skew
+@mixin skew ($x, $y) {
+	@include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+//Retina background images with width and height
+@mixin background-2x($path, $ext: "png", $w: auto, $h: auto, $pos: left top, $repeat: no-repeat) {
+
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}@2x.#{$ext}";
+
+  background-image: url("#{$at1x_path}");
+  background-size: $w $h;
+  background-position: $pos;
+  background-repeat: $repeat;
+
+  @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+    background-image: url("#{$at2x_path}");
+  }
+}
+
+//Retina background images
+@mixin background-2x-no-dimensions($path, $ext: "png", $size: cover, $pos: left top, $repeat: no-repeat) {
+
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}@2x.#{$ext}";
+
+  background-image: url("#{$at1x_path}");
+  background-size: $size;
+  background-position: $pos;
+  background-repeat: $repeat;
+
+  @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+    background-image: url("#{$at2x_path}");
+  }
+}
+
+//Center block
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//Ellipsis
+@mixin ellipsis($lineHeight: 1.2rem, $lineCount: 1, $bgColor: white){
+  overflow: hidden;
+  position: relative;
+  line-height: $lineHeight;
+  max-height: $lineHeight * $lineCount;
+  text-align: left;
+  margin-right: -1rem;
+  padding-right: 1rem;
+  &:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.2rem;
+    background: $bgColor;
+  }
+}

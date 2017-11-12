@@ -1,0 +1,168 @@
+/**/
+/*-- Typography*/
+/**/
+
+body,
+html,
+input,
+select,
+textarea,
+button {
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+p {
+  color: $color-body-text;
+  @include font-to-rem(18);
+  @include line-height-to-rem(27);
+  font-weight: 400;
+}
+
+p.body-text {
+  color: $color-body-text;
+  @include font-to-rem(16);
+  @include line-height-to-rem(24);
+  font-weight: 400;
+  max-width: (540/16)*1rem;
+
+  &.bold {
+    font-weight: 700;
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Lobster', 'Helvetica', 'Helvetica', cursive;
+  color: $color-headings;
+  text-align: center;
+}
+
+h3 {
+  @include font-to-rem(32);
+  @include line-height-to-rem(41);
+
+  @media #{$large-and-up} {
+    @include font-to-rem(40);
+    @include line-height-to-rem(52);
+  }
+
+  @media #{$extra-large-and-up} {
+    @include font-to-rem(48);
+    @include line-height-to-rem(62);
+  }
+
+  &.h3-home {
+    @include font-to-rem(40);
+    @include line-height-to-rem(52);
+
+    @media #{$large-and-up} {
+      @include font-to-rem(55);
+      @include line-height-to-rem(71);
+    }
+
+    @media #{$extra-large-and-up} {
+      @include font-to-rem(70);
+      @include line-height-to-rem(91);
+    }
+  }
+}
+
+.button {
+  margin-top: 30px;
+  padding: 15px 50px 15px 50px;
+  border-radius: 2px;
+  background-color: $color-accent01;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include font-to-rem (13);
+  cursor: pointer;
+  @include transition(background-color);
+
+  &:hover,
+  &:focus {
+    background-color: $color-base;
+  }
+
+  &:active {
+    color: #fff;
+  }
+}
+
+.button-ghost {
+  padding: 15px 50px 15px 50px;
+  border-radius: 2px;
+  border: 2px solid $color-accent01;
+  color: $color-accent01;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include font-to-rem (13);
+  cursor: pointer;
+  @include transition(all);
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent01;
+    color: #fff;
+  }
+
+  &:active {
+    color: #fff;
+  }
+}
+
+.button-card {
+
+  @include padding-top-to-rem (13);
+  @include padding-bot-to-rem (13);
+  width: 100%;
+  text-align: center;
+  border-radius: 2px;
+  background-color: $color-accent02;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include font-to-rem (13);
+  cursor: pointer;
+  @include transition(background-color);
+
+  &:hover,
+  &:focus {
+    background-color: $color-base;
+  }
+
+  &:active {
+    color: #fff;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.body-label {
+  color: $color-body-text;
+  @include font-to-rem(18);
+  @include line-height-to-rem(27);
+  font-weight: 700;
+  color: $color-headings;
+  @include margin-bot-to-rem (10);
+
+  @media #{$small-and-down} {
+    @include font-to-rem(16);
+    @include line-height-to-rem(24);
+  }
+}

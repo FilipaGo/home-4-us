@@ -1,0 +1,78 @@
+/**/
+/*-- Homepage casa*/
+/**/
+
+.label {
+  position: absolute;
+  bottom: (30 / 16) * 1rem;
+  left: 0;
+  @include padding-top-to-rem (5);
+  @include padding-bot-to-rem (5);
+  @include padding-right-to-rem (20);
+  @include padding-left-to-rem (20);
+  box-shadow: 5px 5px 0px rgba(40, 40, 40, .9);
+
+  @media #{$small-and-down} {
+    @include padding-right-to-rem (10);
+    @include padding-left-to-rem (10);
+  }
+
+  &.color1 {
+    background-color: rgba(255, 104, 1, 0.85);
+  }
+
+  &.color2 {
+    background-color: rgba(80, 227, 204, 0.85);
+  }
+
+  &.color3 {
+    background-color: rgba(255, 172, 1, 0.85);
+  }
+
+  &.color4 {
+    background-color: rgba(0, 191, 255, 0.85);
+  }
+
+  p {
+    color: #fff;
+    @include font-to-rem (20);
+
+    @media #{$small-and-down} {
+      @include font-to-rem (16);
+      @include line-height-to-rem (21);
+    }
+  }
+}
+
+.casa-section {
+  img {
+    border: 15px solid #fff;
+    @include transition(border);
+  }
+
+  h3 {
+    color: $color-headings;
+    border-bottom: 2px solid $color-headings;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.casa-section a {
+
+  &:hover,
+  &:focus {
+    .border1 {
+      border: 15px solid $color-accent01;
+    }
+    .border2 {
+      border: 15px solid $color-accent02;
+    }
+    .border3 {
+      border: 15px solid $color-accent03;
+    }
+    .border4 {
+      border: 15px solid $color-base;
+    }
+  }
+}

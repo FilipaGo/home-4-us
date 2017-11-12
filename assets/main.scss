@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// Home4Us Website
+// Main SCSS file
+
+// load config
+// load mixins
+// load base
+// load modules
+// load structure
+@import "variables/variables",
+        "mixins/mixins-general",
+        "base/reset",
+        "base/helper",
+        "base/typography",
+        "base/slick",
+        "modules/grids",
+        "modules/flexbox-grids",
+        "structure/header",
+        "structure/homepage-hero",
+        "structure/homepage-brands",
+        "structure/homepage-history",
+        "structure/homepage-casa",
+        "structure/info",
+        "structure/lista-produtos",
+        "structure/contact-form",
+        "structure/produto",
+        "structure/footer";

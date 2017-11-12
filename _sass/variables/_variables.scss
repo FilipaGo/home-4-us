@@ -1,0 +1,55 @@
+// Variables Config
+
+
+//Color
+$color-base: #00BFFF;
+$color-base-lighter: #B1EBFF;
+$color-accent01: #FF6801;
+$color-accent02: #50E3CD;
+$color-accent03: #FFAC01;
+$color-background: #E8E4E0;
+$color-background-lighter: #F7F7F7;
+
+$color-headings: #282828;
+$color-headings-lighter: #4a4a4a;
+$color-body-text: #555555;
+$color-labels: #9B9B9B;
+$color-labels-border: #B7BCC0;
+$placeholder: #BBBDBF;
+$neutral03: #797979;
+$neutral02: #C8CBCE;
+$neutral01: #D8D8D8;
+
+
+// Grid
+$num-cols: 12 !default;
+$site-max-width: 78.75rem;
+$gutter-width: (15/16) * 1rem !default;
+$element-top-margin: $gutter-width/3 !default;
+$element-bottom-margin: ($gutter-width*2)/3 !default;
+
+
+// Media Queries and Breakpoints
+$xsmall-screen: (298/16) * 1rem !default;
+$small-screen: (568/16) * 1rem !default;
+$medium-screen: (768/16) * 1rem !default;
+$large-screen: (1024/16) * 1rem !default;
+$xlarge-screen: (1200/16) * 1rem !default;
+
+$small-screen-up: (569/16) * 1rem !default;
+$medium-screen-up: (769/16) * 1rem !default;
+$large-screen-up: (1025/16) * 1rem !default;
+$xlarge-screen-up: (1201/16) * 1rem !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$large-screen-up})" !default;
+$extra-extra-large-and-up: "only screen and (min-width : #{$xlarge-screen-up})" !default;
+
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$xsmall-and-down: "only screen and (max-width : #{$xsmall-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$large-and-down: "only screen and (max-width : #{$large-screen})" !default;
+
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+$large-only: "only screen and (min-width : #{$medium-screen-up}) and (max-width : #{$large-screen})" !default;

@@ -1,0 +1,380 @@
+---
+layout: default
+pagina_actual: contactos
+---
+
+<!-- secção form -->
+<section class="contact-section">
+  <h2 class="assistive">Contactos</h2>
+  <div class="container">
+    <article class="flex-row flex-row--nowrap flex-row-no-pad-right-mobile">
+      <div class="flex-col sf3 mf2 lf2 flex-col--shrink overflow-hidden position-relative">
+        <p class="contact-c">C</p>
+      </div>
+      <div class="flex-col sf9 mf10 lf6" id="contact-col2">
+        <div class="position-relative">
+          <div class="history-line contact-line"></div>
+          <h3 class="text-align-left">Contacte-nos</h3>
+        </div>
+        <form action="http://dxd.andr3.net/projecto-ltd/" method="post">
+          <fieldset>
+            <legend class="assistive">Dados Pessoais</legend>
+            <p>
+              <label for="nome_utilizador">Nome</label>
+              <input id="nome_utilizador" type="text" name="nome" placeholder="Insira o nome *" required>
+            </p>
+            <p>
+              <label for="email_utilizador">Email</label>
+              <input id="email_utilizador" type="email" name="email" placeholder="email@email.com *" required>
+            </p>
+            <p>
+              <label for="tel_utilizador">Telefone</label>
+              <input id="tel_utilizador" type="tel" name="telefone" placeholder="Insira o telefone">
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend class="assistive">Detalhe</legend>
+            <div class="radio-wrapper">
+              <p class="radio-group-label">Assunto</p>
+              <div class="radio-container"><input id="radio-1" type="radio" name="motivo-contacto" value="Informação" checked> <label for="radio-1" class="radio-label"><span class="radio">Informação</span></label>
+              </div>
+              <div class="radio-container"><input id="radio-2" type="radio" name="motivo-contacto" value="Reserva"> <label for="radio-2" class="radio-label"><span class="radio">Reserva</span></label>
+              </div>
+              <div class="radio-container"><input id="radio-3" type="radio" name="motivo-contacto" value="Reclamação"> <label for="radio-3" class="radio-label"><span class="radio">Reclamação</span></label>
+              </div>
+              <div class="radio-container"><input id="radio-4" type="radio" name="motivo-contacto" value="Outro"> <label for="radio-4" class="radio-label"><span class="radio">Outro</span></label>
+              </div>
+            </div>
+            <p>
+              <label for="mensagem_utilizador">Mensagem</label>
+              <textarea id="mensagem_utilizador" name="mensagem" placeholder="Insira a sua mensagem *" required></textarea>
+            </p>
+            <p>
+              <input id="nome_aluno" type="hidden" name="nome-aluno" value="Filipa Gomes">
+            </p>
+          </fieldset>
+          <div class="center-content">
+            <button type="submit" name="submit-bt" class="button form-button">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <div class="flex-col lf4 hide-on-med-and-down contact-col3">
+        <div class="contact-col3-overlay"></div>
+      </div>
+    </article>
+  </div>
+</section>
+<!-- fim secção form -->
+
+<!-- secção info geral -->
+<section class="info-section">
+  <h2 class="assistive">Informação geral sobre Envios, Pagamentos, Trocas e Devoluções</h2>
+  <div class="container">
+    <ul class="row bring-to-front info-wrapper">
+      <li class="col s12 m4 col-pad-top-bot info-divider">
+        <div class="round-container">
+          <img src="images/info_envios.svg" alt="Icon Envios">
+        </div>
+        <div class="info-content">
+          <h3 class="info-title">Envios</h3>
+          <p class="info-description">Levantamento em loja gratuito</p>
+        </div>
+      </li>
+      <li class="col s12 m4 col-pad-top-bot info-divider">
+        <div class="round-container">
+          <img src="images/info_pagamentos.svg" alt="Icon Pagamentos">
+        </div>
+        <div class="info-content">
+          <h3 class="info-title">Pagamentos Seguros</h3>
+          <p class="info-description">Diferentes modos de pagamento</p>
+        </div>
+      </li>
+      <li class="col s12 m4 col-pad-top-bot info-divider">
+        <div class="round-container">
+          <img src="images/info_trocas.svg" alt="Icon Trocas e Devoluções">
+        </div>
+        <div class="info-content">
+          <h3 class="info-title">Trocas e Devoluções</h3>
+          <p class="info-description">30 dias para trocar ou devolver</p>
+        </div>
+      </li>
+    </ul>
+    <div class="slanted-div"></div>
+  </div>
+</section>
+<!-- fim secção info geral -->
+
+<!-- secção mais vendidos / large and up -->
+<section class="produtos-section no-pad-top hide-on-med-and-down">
+  <h2 class="assistive">Mais Vendidos</h2>
+  <div class="container">
+    <div>
+      <div class="center-content">
+        <h3 class="position-relative">Mais Vendidos</h3>
+      </div>
+
+      <ul class="flex-row">
+
+        <li class="product-item flex-col mf6 lf6 xlf3 flex-col-no-pad-side position-relative">
+          <article class="box-padding">
+            <div class="product-image-container">
+              <a href="#gatinho">
+                <img srcset="images/mais-vendidos_product-01@2x.jpg 2x" src="images/mais-vendidos_product-01.jpg" alt="Recipientes Nest 8">
+              </a>
+            </div>
+            <div class="hide-on-large-and-down">
+              <a class="display-block" href="#gatinho">
+                <h4>Recipientes Nest 8</h4>
+              </a>
+              <a class="product-label" href="#gatinho">Joseph Joseph</a>
+            </div>
+            <div class="hide-on-xlarge-and-up">
+              <div class="flex-row flex-row-no-pad-left flex-row-no-pad-right nowrap flex-row--justifybetween">
+                <div class="flex-col flex-col-no-pad-left">
+                  <a class="display-block" href="#gatinho">
+                    <h4>Recipientes Nest 8</h4>
+                  </a>
+                  <a class="product-label" href="#gatinho">Joseph Joseph</a>
+                </div>
+                <div class="flex-col flex-col-no-pad-right">
+                  <p class="product-price">€50.00</p>
+                  <p class="product-price-old">€75.40</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-overlay-wrapper hide-on-large-and-down">
+              <div class="product-overlay flex-row flex-row-pad-top-bot">
+                <div class="flex-col flex-col-no-pad-left flex-col-no-pad-right">
+                  <p class="product-description">Organize os armários da sua cozinha com este conjunto de 8 recipientes que se encaixam na perfeição para poupar espaço.
+                  </p>
+                </div>
+                <div class="flex-col flex-row flex-row--nowrap flex-col--grow--shrink flex-row-no-pad-left  flex-row-no-pad-right flex-col-no-pad-left flex-col-no-pad-right flex-row--bottom">
+                  <div class="flex-col flex-col--grow flex-col-no-pad-left">
+                    <a class="button-card" href="#gatinho">Comprar</a>
+                  </div>
+                  <div class="flex-col flex-col--grow flex-col-no-pad-right">
+                    <p class="product-price-old-white">€75.40</p>
+                    <p class="product-price-big">€50.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <li class="product-item flex-col mf6 lf6 xlf3 flex-col-no-pad-side position-relative">
+          <article class="box-padding">
+            <div class="product-image-container">
+              <a href="#gatinho">
+                <img srcset="images/mais-vendidos_product-02@2x.jpg 2x" src="images/mais-vendidos_product-02.jpg" alt="Caixa para Cozinhar Massa">
+              </a>
+            </div>
+            <div class="hide-on-large-and-down">
+              <a class="display-block" href="#gatinho">
+                <h4>Caixa para Cozinhar Massa</h4>
+              </a>
+              <a class="product-label" href="#gatinho">Lékué</a>
+            </div>
+            <div class="hide-on-xlarge-and-up">
+              <div class="flex-row flex-row-no-pad-left flex-row-no-pad-right nowrap flex-row--justifybetween">
+                <div class="flex-col flex-col-no-pad-left">
+                  <a class="display-block" href="#gatinho">
+                    <h4>Caixa para Cozinhar Massa</h4>
+                  </a>
+                  <a class="product-label" href="#gatinho">Lékué</a>
+                </div>
+                <div class="flex-col flex-col-no-pad-right">
+                  <p class="product-price">€10.95</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-overlay-wrapper hide-on-large-and-down">
+              <div class="product-overlay flex-row flex-row-pad-top-bot">
+                <div class="flex-col flex-col-no-pad-left flex-col-no-pad-right">
+                  <p class="product-description"> Cozinhe todos os tipos de massa no micro-ondas e poupe tempo. Não necessita de ferver a água nem de partir o esparguete.
+                  </p>
+                </div>
+                <div class="flex-col flex-row flex-row--nowrap flex-col--grow--shrink flex-row-no-pad-left  flex-row-no-pad-right flex-col-no-pad-left flex-col-no-pad-right flex-row--bottom">
+                  <div class="flex-col flex-col--grow flex-col-no-pad-left">
+                    <a class="button-card" href="#gatinho">Comprar</a>
+                  </div>
+                  <div class="flex-col flex-col--grow flex-col-no-pad-right">
+                    <p class="product-price-big">€10.95</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <li class="product-item flex-col mf6 lf6 xlf3 flex-col-no-pad-side position-relative">
+          <article class="box-padding">
+            <div class="product-image-container">
+              <a href="#gatinho">
+                <img srcset="images/mais-vendidos_product-03@2x.jpg 2x" src="images/mais-vendidos_product-03.jpg" alt="Frascos de vidro empilháveis">
+              </a>
+            </div>
+            <div class="hide-on-large-and-down">
+              <a class="display-block" href="#gatinho">
+                <h4>Frascos de vidro empilháveis</h4>
+              </a>
+              <a class="product-label" href="#gatinho">Brabantia</a>
+            </div>
+            <div class="hide-on-xlarge-and-up">
+              <div class="flex-row flex-row-no-pad-left flex-row-no-pad-right nowrap flex-row--justifybetween">
+                <div class="flex-col flex-col-no-pad-left">
+                  <a class="display-block" href="#gatinho">
+                    <h4>Frascos de vidro empilháveis</h4>
+                  </a>
+                  <a class="product-label" href="#gatinho">Brabantia</a>
+                </div>
+                <div class="flex-col flex-col-no-pad-right">
+                  <p class="product-price">€30.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-overlay-wrapper hide-on-large-and-down">
+              <div class="product-overlay flex-row flex-row-pad-top-bot">
+                <div class="flex-col flex-col-no-pad-left flex-col-no-pad-right">
+                  <p class="product-description"> Simplifique o armazenamento de alimentos com este conjunto de frascos de design eficiente.
+                  </p>
+                </div>
+                <div class="flex-col flex-row flex-row--nowrap flex-col--grow--shrink flex-row-no-pad-left  flex-row-no-pad-right flex-col-no-pad-left flex-col-no-pad-right flex-row--bottom">
+                  <div class="flex-col flex-col--grow flex-col-no-pad-left">
+                    <a class="button-card" href="#gatinho">Comprar</a>
+                  </div>
+                  <div class="flex-col flex-col--grow flex-col-no-pad-right">
+                    <p class="product-price-big">€30.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <li class="product-item flex-col mf6 lf6 xlf3 flex-col-no-pad-side position-relative">
+          <article class="box-padding">
+            <div class="product-image-container">
+              <a href="produto.html">
+                <img srcset="images/mais-vendidos_product-05@2x.jpg 2x" src="images/mais-vendidos_product-05.jpg" alt="Caixote do Lixo New Icon">
+              </a>
+            </div>
+            <div class="hide-on-large-and-down">
+              <a class="display-block" href="produto.html">
+                <h4>Caixote do Lixo New Icon</h4>
+              </a>
+              <a class="product-label" href="#gatinho">Brabantia</a>
+            </div>
+            <div class="hide-on-xlarge-and-up">
+              <div class="flex-row flex-row-no-pad-left flex-row-no-pad-right nowrap flex-row--justifybetween">
+                <div class="flex-col flex-col-no-pad-left">
+                  <a class="display-block" href="produto.html">
+                    <h4>Caixote do Lixo New Icon</h4>
+                  </a>
+                  <a class="product-label" href="#gatinho">Brabantia</a>
+                </div>
+                <div class="flex-col flex-col-no-pad-right">
+                  <p class="product-price">€100.00</p>
+                  <p class="product-price-old">€110.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-overlay-wrapper hide-on-large-and-down">
+              <div class="product-overlay flex-row flex-row-pad-top-bot">
+                <div class="flex-col flex-col-no-pad-left flex-col-no-pad-right">
+                  <p class="product-description"> Dê um boost ao design da sua cozinha com este caixote do lixo icónico disponível numa variedade de cores.</p>
+                </div>
+                <div class="flex-col flex-row flex-row--nowrap flex-col--grow--shrink flex-row-no-pad-left  flex-row-no-pad-right flex-col-no-pad-left flex-col-no-pad-right flex-row--bottom">
+                  <div class="flex-col flex-col--grow flex-col-no-pad-left">
+                    <a class="button-card" href="produto.html">Comprar</a>
+                  </div>
+                  <div class="flex-col flex-col--grow flex-col-no-pad-right">
+                    <p class="product-price-old-white">€110.00</p>
+                    <p class="product-price-big">€100.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+
+      <div class="row center-content row-big-pad-top">
+        <a class="button-ghost" href="#gatinho ">Mais produtos</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fim secção mais vendidos / large and up -->
+
+<!-- secção mais vendidos / medium and down -->
+<section class=" produtos-section no-pad-top hide-on-large-and-up">
+  <h2 class="assistive">Mais Vendidos</h2>
+  <div class="container">
+    <div class="row center-content">
+      <h3 class="h3-home position-relative">Mais Vendidos</h3>
+    </div>
+    <div class="row row-no-pad-right row-no-pad-left">
+      <ul class="product-list clearfix">
+
+        <li class="product-list-item">
+          <article>
+            <a href="#gatinho">
+              <div class="product-image-container">
+                <img srcset="images/mais-vendidos_product-01@2x.jpg 2x" src="images/mais-vendidos_product-01.jpg" alt="Recipientes Nest 8">
+              </div>
+              <div>
+                <h4>Recipientes Nest 8</h4>
+                <p class="product-price text-align-left">€50.00 <span class="product-price-old">€75.40</span></p>
+              </div>
+            </a>
+          </article>
+        </li>
+
+        <li class="product-list-item">
+          <article>
+            <a href="#gatinho">
+              <div class="product-image-container">
+                <img srcset="images/mais-vendidos_product-02@2x.jpg 2x" src="images/mais-vendidos_product-02.jpg" alt="Caixa para cozinhar massa">
+              </div>
+              <div>
+                <h4>Caixa para cozinhar massa</h4>
+                <p class="product-price text-align-left">€10.95</p>
+              </div>
+            </a>
+          </article>
+        </li>
+
+        <li class="product-list-item">
+          <article>
+            <a href="#gatinho">
+              <div class="product-image-container">
+                <img srcset="images/mais-vendidos_product-03@2x.jpg 2x" src="images/mais-vendidos_product-03.jpg" alt="Frascos de vidro empilháveis">
+              </div>
+              <div>
+                <h4>Frascos de vidro empilháveis</h4>
+                <p class="product-price text-align-left">€30.00</p>
+              </div>
+            </a>
+          </article>
+        </li>
+
+        <li class="product-list-item">
+          <article>
+            <a href="produto.html">
+              <div class="product-image-container">
+                <img srcset="images/mais-vendidos_product-05@2x.jpg 2x" src="images/mais-vendidos_product-05.jpg" alt="Caixote do Lixo New Icon">
+              </div>
+              <div>
+                <h4>Caixote do Lixo New Icon</h4>
+                <p class="product-price text-align-left">€100.00 <span class="product-price-old">€110.00</span></p>
+              </div>
+            </a>
+          </article>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- fim secção mais vendidos / medium and down -->
