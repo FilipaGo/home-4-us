@@ -12,11 +12,11 @@ Details”.
 
 ## Redesign Goals
 
-Improve the website's navigation and build a responsive online shop that can help extend their customer base to other geographical areas, without investing in the rental of new spaces for physical shops. Above all, a design that keeps focus on the products and reflects the brand's values:
+Improve the website's navigation and build a responsive online shop that can help extend their customer base to other geographical areas, without investing in the rental of new spaces for physical shops. Above all, a design that focus on the products and reflects the brand's values:
 
 * Modernity;
 * Simplicity;
-* Attention to detail;
+* Attention to detail.
 
 Bring Home4us' outdated website to the 21st century with a bold and edgy redesign that conveys a friendly, neighbourly and positive vibe!
 
@@ -44,7 +44,7 @@ mobile version but with a lot of navigation problems and low quality photography
 * Mockups:
   * [Desktop mockups](https://invis.io/67A1EI19M)
   * [Mobile mockups](http://invis.io/B7A1X102H)
-* Prototype;
+* Prototype.
 
 <br></br>
 ![Benchmarking Presentation Example Page](_images_readme/benchmarking_example.jpg)
@@ -56,7 +56,7 @@ mobile version but with a lot of navigation problems and low quality photography
 
 <br></br>
 ![New Information Architecture](_images_readme/sitemap_new.jpg)
-*The new information architecture is a lot cleaner and reduces the top level categories in the main navigation to three: home, gifts and brands. The information architecture's document can be found [here](_docs_readme/sitemap_home4us.xlsx "Website's Information Architecture").*
+*The new information architecture is a lot cleaner and reduces the top level categories in the main navigation to three: home, gifts and brands. The information architecture's document can be downloaded [here](_docs_readme/sitemap_home4us.xlsx "Website's Information Architecture").*
 
 <br></br>
 ![Wireframes](_images_readme/wireframes.jpg)
