@@ -48,7 +48,7 @@ mobile version but with a lot of navigation problems and low quality photography
 
 <br></br>
 ![Benchmarking Presentation Example Page](_images_readme/benchmarking_example.jpg)
-*Example page from the Benchmarking Analysis presentation to the client. You can check out the complete analysis [here](_docs_readme/benchmarking_structure.xlsx "Websites' Structure Benchmarking Analysis") and [there](_docs_readme/benchmarking_strong-and-weak.pdf "Websites' Strengths and Weaknesses Benchmarking Analysis") (you can't preview the files here; you have to download the documents... sorry).*
+*Example page from the Benchmarking Analysis presentation to the client. You can check out the complete analysis [here](_docs_readme/benchmarking_structure.xlsx "Websites' Structure Benchmarking Analysis") and [there](_docs_readme/benchmarking_strong-and-weak.pdf "Websites' Strengths and Weaknesses Benchmarking Analysis") (you can't preview the files on Github; you have to download the documents... sorry).*
 
 <br></br>
 ![Old Information Architecture](_images_readme/info_arch_old.jpg)
@@ -61,3 +61,26 @@ mobile version but with a lot of navigation problems and low quality photography
 <br></br>
 ![Wireframes](_images_readme/wireframes.jpg)
 *Some early stage wireframes (always with real content!).*
+
+<br></br>
+![Mockups](_images_readme/mockups.jpg)
+*Mockups details.*
+
+## Development Goals
+
+I coded part of this project for a class taken during a Digital Experience Design Post-Graduation.
+
+The main requirements were:
+
+* Write semantic HTML, keeping in mind the wide compatibility of user agents
+(browsers);
+* Write SCSS and CSS following good practices;
+* Concern with accessibility and application of concepts of Progressive Enhancement and
+Graceful Degradation;
+* Good adaptability to different types of devices (screen size, multi-touch, etc.);
+* Compatibility with high-density displays;
+* Cross-browser compatibility (last version of most popular browsers).
+
+[homepage](https://filipago.github.io/home-4-us/)  //  [product page](https://filipago.github.io/home-4-us/produto.html)  //  [contact form](https://filipago.github.io/home-4-us/contactos.html)
+
+I gave a presentation of this project explaining how I structured it's development. You can check it out [here](_docs_readme/apresentacao_ltd.key "Home4Us Keynote Presentation").
