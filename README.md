@@ -40,9 +40,16 @@ mobile version but with a lot of navigation problems and low quality photography
 * Wireframes;
 * Visual identity;
 * Mockups:
+  * <a href="https://invis.io/67A1EI19M" target="_blank">Desktop HTML</a>
   * [Desktop mockups](https://invis.io/67A1EI19M)
   * [Mobile mockups](http://invis.io/B7A1X102H)
 * Prototype;
 
-![Benchmarking Example](_images_readme/benchmarking_example.jpg)
-*Example page from the Benchmarking Analysis presentation to the client. You can check out the complete analysis [here](_docs_readme/benchmarking_structure.xlsx "Website Structure Benchmarking Analysis") and [here](_docs_readme/benchmarking_strong-and-weak.pdf "Website Strengths and Weaknesses Benchmarking Analysis").*
+![Benchmarking Presentation Example Page](_images_readme/benchmarking_example.jpg)
+*Example page from the Benchmarking Analysis presentation to the client. You can check out the complete analysis [here](_docs_readme/benchmarking_structure.xlsx "Websites' Structure Benchmarking Analysis") and [there](_docs_readme/benchmarking_strong-and-weak.pdf "Websites' Strengths and Weaknesses Benchmarking Analysis") (you can't preview the files here; you have to download the documents... sorry).*
+
+![Old Information Architecture](_images_readme/info_arch_old.jpg)
+*The old information architecture was quite messy and had too many categories for such a small shop*
+
+![New Information Architecture](_images_readme/sitemap_new.jpg)
+*The new information architecture is a lot cleaner and reduces the top level categories in the main navigation to three: home, gifts and brands. The information architecture's document can be found [here](_docs_readme/sitemap_home4us.xlsx "Website's Information Architecture")*
