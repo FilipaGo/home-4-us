@@ -20,11 +20,13 @@ Improve the website's navigation and build a responsive online shop that can hel
 
 Bring Home4us' outdated website to the 21st century with a bold and edgy redesign that conveys a friendly, neighbourly and positive vibe!
 
+<br>
 ![Home4Us old Website](_images_readme/home4us_old.jpg)
 *Home4Us' old and outdated Weebly website, unsuitable for
 the requirements of today's users (screenshot). The website was not responsive and wasn't an online shop; it had a
 mobile version but with a lot of navigation problems and low quality photography that didn't properly showcase the products' quality and brand values.*
 
+<br>
 ![Home4Us old Website Analytics](_images_readme/analytics_home4us_geral.jpg)
 *The website had a huge bounce rate.*
 
@@ -40,16 +42,22 @@ mobile version but with a lot of navigation problems and low quality photography
 * Wireframes;
 * Visual identity;
 * Mockups:
-  * <a href="https://invis.io/67A1EI19M" target="_blank">Desktop HTML</a>
   * [Desktop mockups](https://invis.io/67A1EI19M)
   * [Mobile mockups](http://invis.io/B7A1X102H)
 * Prototype;
 
+<br>
 ![Benchmarking Presentation Example Page](_images_readme/benchmarking_example.jpg)
 *Example page from the Benchmarking Analysis presentation to the client. You can check out the complete analysis [here](_docs_readme/benchmarking_structure.xlsx "Websites' Structure Benchmarking Analysis") and [there](_docs_readme/benchmarking_strong-and-weak.pdf "Websites' Strengths and Weaknesses Benchmarking Analysis") (you can't preview the files here; you have to download the documents... sorry).*
 
+<br>
 ![Old Information Architecture](_images_readme/info_arch_old.jpg)
 *The old information architecture was quite messy and had too many categories for such a small shop*
 
+<br>
 ![New Information Architecture](_images_readme/sitemap_new.jpg)
 *The new information architecture is a lot cleaner and reduces the top level categories in the main navigation to three: home, gifts and brands. The information architecture's document can be found [here](_docs_readme/sitemap_home4us.xlsx "Website's Information Architecture")*
+
+<br>
+![Wireframes](_images_readme/wireframes.jpg)
+*Some early stage wireframes (always with real content!).*
