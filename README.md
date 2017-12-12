@@ -52,11 +52,11 @@ mobile version but with a lot of navigation problems and low quality photography
 
 <br></br>
 ![Old Information Architecture](_images_readme/info_arch_old.jpg)
-*The old information architecture was quite messy and had too many categories for such a small shop*
+*The old information architecture was quite messy and had too many categories for such a small shop.*
 
 <br></br>
 ![New Information Architecture](_images_readme/sitemap_new.jpg)
-*The new information architecture is a lot cleaner and reduces the top level categories in the main navigation to three: home, gifts and brands. The information architecture's document can be found [here](_docs_readme/sitemap_home4us.xlsx "Website's Information Architecture")*
+*The new information architecture is a lot cleaner and reduces the top level categories in the main navigation to three: home, gifts and brands. The information architecture's document can be found [here](_docs_readme/sitemap_home4us.xlsx "Website's Information Architecture").*
 
 <br></br>
 ![Wireframes](_images_readme/wireframes.jpg)
