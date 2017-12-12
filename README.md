@@ -20,7 +20,7 @@ Improve the website's navigation and build a responsive online shop that can hel
 
 Bring Home4us' outdated website to the 21st century with a bold and edgy redesign that conveys a friendly, neighbourly and positive vibe!
 
-<br>
+<br></br>
 ![Home4Us old Website](_images_readme/home4us_old.jpg)
 *Home4Us' old and outdated Weebly website, unsuitable for
 the requirements of today's users (screenshot). The website was not responsive and wasn't an online shop; it had a
