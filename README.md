@@ -45,4 +45,4 @@ mobile version but with a lot of navigation problems and low quality photography
 * Prototype;
 
 ![Benchmarking Example](_images_readme/benchmarking_example.jpg)
-*Example page from the Benchmarking Analysis presentation to the client. You can check out the complete analysis [here](_docs_readme/benchmarking_structure.xlsx) and [here](_docs_readme/benchmarking_strong-and-weak.pdf).*
+*Example page from the Benchmarking Analysis presentation to the client. You can check out the complete analysis [here](_docs_readme/benchmarking_structure.xlsx "Website Structure Benchmarking Analysis") and [here](_docs_readme/benchmarking_strong-and-weak.pdf "Website Strengths and Weaknesses Benchmarking Analysis").*
