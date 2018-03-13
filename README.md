@@ -42,8 +42,8 @@ mobile version but with a lot of navigation problems and low quality photography
 * Wireframes;
 * Visual identity;
 * Mockups:
-  * [Desktop mockups](https://invis.io/67A1EI19M)
-  * [Mobile mockups](http://invis.io/B7A1X102H)
+  * [Desktop mockups](https://filipago.github.io/home-4-us-desktop-site-prototype)
+  * [Mobile mockups](https://filipago.github.io/home-4-us-mobile-site-prototype/)
 * Prototype.
 
 <br></br>
