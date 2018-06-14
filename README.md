@@ -2,7 +2,7 @@
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/redesign-orange.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/mockups.jpg" width="1000" />
 Homepage Detail.
 </p>
 <br></br>
