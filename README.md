@@ -2,7 +2,7 @@
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/redesign-orange.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/redesign-orange.jpg" width="1000" />
 Homepage Detail.
 </p>
 <br></br>
@@ -34,9 +34,11 @@ Graceful Degradation;
 * Compatibility with high-density displays;
 * Cross-browser compatibility (last version of most popular browsers).
 
+👉 Direct Links
+
 [homepage](https://filipago.github.io/home-4-us/)  //  [product page](https://filipago.github.io/home-4-us/produto.html)  //  [contact form](https://filipago.github.io/home-4-us/contactos.html)
 
-I gave a presentation of this project explaining how I structured it's development. You can [download it here]( https://github.com/FilipaGo/home-4-us-mobile-site-prototype/raw/master/_docs_readme/apresentacao_ltd.pdf "Home4Us Keynote Presentation").
+I gave a presentation of this project explaining how I structured it's development. You can [download it here]( https://github.com/FilipaGo/home-4-us/raw/master/_docs_readme/apresentacao_ltd.pdf "Home4Us Keynote Presentation").
 <br></br>
 ***
 
@@ -78,7 +80,7 @@ Home4Us' old and outdated Weebly website was unsuitable for the requirements of 
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/home4us_old.jpg " width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/home4us_old.jpg " width="1000" />
 Home4Us' original website.
 </p>
 <br></br>
@@ -87,7 +89,7 @@ The website was almost a product catalog, subdivided by categories and sub-categ
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/analytics.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/analytics.jpg" width="1000" />
 Home4Us Google Analytics Views.
 </p>
 <br></br>
@@ -108,7 +110,7 @@ Bring Home4us' outdated website to the 21st century with a bold and edgy redesig
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/scope.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/scope.jpg" width="1000" />
 Initial scope presented to the client.
 </p>
 <br></br>
@@ -123,7 +125,7 @@ Their main needs include checking product prices, new arrivals and discounts as 
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/target.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/target.jpg" width="1000" />
 Home4Us target audience.
 </p>
 <br></br>
@@ -132,14 +134,14 @@ I conducted a structural benchmarking analysis on 6 competitor websites and asse
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/benchmarking.jpg" width="1000" />
-Benchmarking Analysis. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_docs_readme/benchmarking_structure.xlsx" >download the complete benchmarking analysis here</a>.
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/benchmarking.jpg" width="1000" />
+Benchmarking Analysis. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_docs_readme/benchmarking_structure.xlsx" >download the complete benchmarking analysis here</a>.
 </p>
 <br></br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/benchmarking_example.jpg" width="1000" />
-Example pages from the Benchmarking presentation to the client. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_docs_readme/benchmarking_strong-and-weak.pdf" >download the complete listing here</a>.
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/benchmarking_example.jpg" width="1000" />
+Example pages from the Benchmarking presentation to the client. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_docs_readme/benchmarking_strong-and-weak.pdf" >download the complete listing here</a>.
 </p>
 <br></br>
 
@@ -159,7 +161,7 @@ I showed the client a couple of e-commerce websites that I thought conveyed, mor
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/references.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/references.jpg" width="1000" />
 Some reference websites presented to the client.
 </p>
 <br></br>
@@ -174,7 +176,7 @@ The following “meetings” outlined other relevant information that helped ref
 * Automatically generated breadcrumbs (for example, when the client creates a new product page);
 * Add/change images’ alt text;
 * Add/update internal and external links;
-* SSL Cetificate;
+* SSL Certificate;
 * CMS training;
 * Optimized SEO:
   * Each page should have its own editable metadata – title, keywords, description;
@@ -186,7 +188,7 @@ I went on with documenting the current website’s information architecture and 
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/info-architecture-old.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/info-architecture-old.jpg" width="1000" />
 Original Information Architecture.
 </p>
 <br></br>
@@ -197,7 +199,7 @@ I managed to rearrange things, reducing the main navigation and reorganizing the
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/info-architecture-new_sitemap-v01_full.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/info-architecture-new_sitemap-v01_full.jpg" width="1000" />
 This was the first take on the new Information Architecture. It wasn’t good enough…
 </p>
 <br></br>
@@ -206,7 +208,7 @@ I left out the information architecture for a bit and started working on some te
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/templates.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/templates.jpg" width="1000" />
 Some initial page templates presented to the client… my priority guides in a list format.
 </p>
 <br></br>
@@ -217,14 +219,14 @@ After many iterations I finally came up with a solution I was happier with and t
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/info-architecture-new.jpg" width="1000" />
-Home4Us new Information Architecture… 5th iteration. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_docs_readme/info-architecture_home4us_v05.xlsx" >download the document here</a> if you want to check it out.
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/info-architecture-new.jpg" width="1000" />
+Home4Us new Information Architecture… 5th iteration. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_docs_readme/info-architecture_home4us_v05.xlsx" >download the document here</a> if you want to check it out.
 </p>
 <br></br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/info-architecture-new_sitemap-v05_full.jpg" width="1000" />
-New Sitemap 🏆… Cleaner and a lot more functional. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_docs_readme/sitemap_home4us_v05.pdf" >download the new Sitemap here</a>.
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/info-architecture-new_sitemap-v05_full.jpg" width="1000" />
+New Sitemap 🏆… Cleaner and a lot more functional. You can <a href="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_docs_readme/sitemap_home4us_v05.pdf" >download the new Sitemap here</a>.
 </p>
 <br></br>
 
@@ -232,14 +234,14 @@ I went on designing the wireframes for the 4 pages I was responsible for, taking
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/sketch-wireframes_blue.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/sketch-wireframes_blue.jpg" width="1000" />
 Some early stage wireframes. Always with real content!
 </p>
 <br></br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/wireframes.jpg" width="1000" />
-Some wireframes for the Homepage, Product Page and Cart. You can check out all the wireframes <a href="https://github.com/FilipaGo/home-4-us-mobile-site-prototype/tree/master/_images_readme/wireframes" >here</a>.
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/wireframes.jpg" width="1000" />
+Some wireframes for the Homepage, Product Page and Cart. You can check out all the wireframes <a href="https://github.com/FilipaGo/home-4-us/tree/master/_images_readme/wireframes">here</a>.
 </p>
 <br></br>
 
@@ -247,7 +249,7 @@ When time came to choose fonts and colors, I went for a hand-drawn font for the 
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/styles.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/styles.jpg" width="1000" />
 Home4Us new color palette and fonts.
 </p>
 <br></br>
@@ -256,7 +258,7 @@ Home4Us new color palette and fonts.
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/sketch-mockups_blue.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/sketch-mockups_blue.jpg" width="1000" />
 Home4Us Mockups.
 </p>
 <br></br>
@@ -267,7 +269,7 @@ I played a bit more with the image grids that highlight the second level navigat
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/mockups-03.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/mockups-03.jpg" width="1000" />
 Homepage Detail.
 </p>
 <br></br>
@@ -276,7 +278,7 @@ I also realized I had left out an important detail, my client’s story… so ri
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/mockups-01.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/mockups-01.jpg" width="1000" />
 Home4Us Mockups. From left to right, List Page and Product Page.
 </p>
 <br></br>
@@ -285,7 +287,7 @@ On mobile, both the Product Page and the Cart Page have fixed sections to the bo
 
 <br></br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us-mobile-site-prototype/master/_images_readme/mockups-02.jpg" width="1000" />
+<img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/mockups-02.jpg" width="1000" />
 Home4Us Mockups. Cart.
 </p>
 <br></br>
