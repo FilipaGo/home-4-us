@@ -17,7 +17,7 @@ To redesign the homepage, products’ list page, product page and cart, I mapped
 * Research (Target Users definition, Benchmarking Analysis and Proto-personas);
 * Interaction Design (Documentation on the current site's Information Architecture and Content Inventory [as-is analysis], User Flows, New Information Architecture, Wireframes);
 * Visual Identity;
-* User Interface Design (Mockups):
+* User Interface Design (Mockups);
 * Non-functional Prototypes;
 * Development.
 
@@ -121,7 +121,7 @@ This project involved redesigning the Homepage, Products’ List Page, Product P
 
 Home4Us clients are mostly young women, looking for cool objects for their first house, who enjoy buying unique good quality products.
 
-Their main needs include checking product prices, new arrivals and discounts as well as easiness when exchanging or returning an item. They prefer shopping online because it’s more comfortable and they use several digital payment methods.
+Their main needs include checking products' prices, new arrivals and discounts as well as easiness when exchanging or returning an item. They prefer shopping online because it’s more comfortable and they use several digital payment methods.
 
 <br></br>
 <p align="center">
