@@ -7,6 +7,8 @@ Home4Us redesign.
 </p>
 <br></br>
 
+📖 <i>`Estimated reading time: 8 minutes (1542 words)`</i>
+
 ## Project Summary
 
 Website redesign and development (proof of concept) for Home4Us, a small Portuguese company that sells household and decoration articles with a gift shop section.
