@@ -3,10 +3,18 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/FilipaGo/home-4-us/master/_images_readme/mockups.jpg" width="1000" />
 Home4Us redesign.
-</p>
 <br></br>
+</p>
 
 📖 <i>`Estimated reading time: 8 minutes (1542 words)`</i>
+
+**Table of Contents**
+
+* [Project Summary](https://github.com/FilipaGo/home-4-us#project-summary)</br>
+* [Context](https://github.com/FilipaGo/home-4-us#context)</br>
+* [Problem](https://github.com/FilipaGo/home-4-us#problem)</br>
+* [Redesign Goals and Scope](https://github.com/FilipaGo/home-4-us#redesign-goals-and-scope)</br>
+* [Methodology](https://github.com/FilipaGo/home-4-us#methodology)</br>
 
 ## Project Summary
 
