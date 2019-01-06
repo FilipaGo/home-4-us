@@ -20,7 +20,7 @@ Home4Us redesign.
 
 Website redesign and development (proof of concept) for Home4Us, a small Portuguese company that sells household and decoration articles with a gift shop section.
 
-To redesign the homepage, products’ list page, product page and cart, I mapped out the following strategy:
+To redesign the homepage, products’ list page, product page and shopping cart, I mapped out the following strategy:
 
 * Client Assessment (Briefing definition, Project Scope and Objectives);
 * Research (Target Users definition, Benchmarking Analysis and Proto-personas);
